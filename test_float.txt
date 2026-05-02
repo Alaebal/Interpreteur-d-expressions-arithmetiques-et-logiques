@@ -1,0 +1,23 @@
+a = 3.14;
+b = 2;
+c = a * b;
+print(c);
+
+x = 10;
+y = 3;
+z = x / y;
+print(z);
+
+d = 10.0;
+e = 3.0;
+f = d / e;
+print(f);
+
+g = 5 + 2.5;
+print(g);
+
+h = 1.5;
+tantque (h < 5.0) alors
+    h = h + 1.5;
+    print(h);
+fin
