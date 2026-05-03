@@ -7,20 +7,26 @@ Il permet d’analyser, construire et exécuter des expressions arithmétiques, 
 Le projet repose sur une AST (Abstract Syntax Tree) pour représenter et évaluer les programmes.
 
 Concepts utilisés
+
 Analyse lexicale et syntaxique
 Grammaires context-free
 AST (Abstract Syntax Tree)
 Évaluation d’expressions
 Gestion mémoire en C
 Gestion d’erreurs
+
+
 Technologies utilisées
 Langage C
 Flex (analyse lexicale)
 Bison (analyse syntaxique)
 Structures de données : AST (Abstract Syntax Tree)
+
+
 Compilation
 🔹 Sous Windows
 compile.bat
+
 🔹 Compilation manuelle
 bison -d interpreteur.y
 flex lex.l
