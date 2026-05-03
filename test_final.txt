@@ -1,0 +1,43 @@
+fonction carre(x) faire
+    retourner x * x;
+fin
+
+fonction factorielle(n) faire
+    si n <= 1 alors
+        retourner 1;
+    fin
+    retourner n * factorielle(n - 1);
+fin
+
+fonction max(a, b) faire
+    si a > b alors
+        retourner a;
+    sinon
+        retourner b;
+    fin
+fin
+
+a = carre(5);
+print(a);
+
+b = factorielle(6);
+print(b);
+
+c = max(10, 7);
+print(c);
+
+tab[5];
+i = 0;
+tantque (i < 5) alors
+    tab[i] = carre(i);
+    i = i + 1;
+fin
+
+j = 0;
+tantque (j < 5) alors
+    print(tab[j]);
+    j = j + 1;
+fin
+
+x = 3.14 * 2.0;
+print(x);

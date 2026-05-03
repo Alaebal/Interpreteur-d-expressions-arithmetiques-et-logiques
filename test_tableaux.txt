@@ -1,0 +1,35 @@
+tableau tab[5];
+tab[0] = 10;
+tab[1] = 20;
+tab[2] = 30;
+tab[3] = 40;
+tab[4] = 50;
+
+print(tab[0]);
+print(tab[2]);
+print(tab[4]);
+
+i = 0;
+tantque (i < 5) alors
+    print(tab[i]);
+    i = i + 1;
+fin
+
+tab[2] = tab[0] + tab[1];
+print(tab[2]);
+
+tableau notes[4];
+notes[0] = 15;
+notes[1] = 12;
+notes[2] = 18;
+notes[3] = 10;
+
+somme = 0;
+k = 0;
+tantque (k < 4) alors
+    somme = somme + notes[k];
+    k = k + 1;
+fin
+print(somme);
+
+tab[10] = 99;

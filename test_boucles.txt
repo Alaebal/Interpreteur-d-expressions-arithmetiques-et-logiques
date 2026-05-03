@@ -1,0 +1,23 @@
+// test1 : tantque — compte de 1 à 5
+i = 1;
+tantque (i <= 5) alors
+    print(i);
+    i = i + 1;
+fin
+
+// test2 : repeter — compte jusqu'à 3
+x = 0;
+repeter
+    x = x + 1;
+    print(x);
+jusqua (x == 3)
+
+// test3 : boucle avec condition logique
+a = 10;
+b = 0;
+tantque (a > 0 && b < 3) alors
+    a = a - 3;
+    b = b + 1;
+fin
+print(a);
+print(b);

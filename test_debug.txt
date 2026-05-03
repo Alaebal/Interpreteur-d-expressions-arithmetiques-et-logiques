@@ -1,0 +1,18 @@
+
+i = 1;
+tantque (i <= 5) alors
+    print(i);
+    i = i + 1;
+fin
+
+x = 0;
+repeter
+    x = x + 1;
+    print(x);
+jusqua (x == 3)
+
+z = inconnue;
+
+a = 10 / 0;
+
+b = 5 + ;
