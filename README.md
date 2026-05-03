@@ -1,5 +1,5 @@
 Interpréteur d'expressions arithmétiques et logiques
-🧠 Description
+ Description
 
 Ce projet est un interpréteur de langage simple développé en langage C, basé sur les outils Flex et Bison.
 Il permet d’analyser, construire et exécuter des expressions arithmétiques, logiques, ainsi que des structures de contrôle.
